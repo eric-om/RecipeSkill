@@ -45,8 +45,8 @@
                     <h2 class="section-heading">Available Recipes</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+            <div id="recipeTable" class="row">
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -59,78 +59,7 @@
                         <h4>Omelette</h4>
                         <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">Click for ingredients</a>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{% static 'img/portfolio/hotdog.png' %}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Boba</h4>
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">Click for ingredients</a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{% static 'img/portfolio/hotdog.png' %}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Apple Pie</h4>
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">Click for ingredients</a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{% static 'img/portfolio/hotdog.png' %}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Sandwich</h4>
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">Click for ingredients</a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{% static 'img/portfolio/hotdog.png' %}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Hot dog</h4>
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">Click for ingredients</a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{% static 'img/portfolio/hotdog.png' %}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Burger</h4>
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">Click for ingredients</a>
-                    </div>
-                </div>
-
+                </div> -->
             </div>
             </div>
         </div>
@@ -199,19 +128,22 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
                                 <h2>Recipe Directions for...</h2>
                                 <p class="item-intro text-muted">Blahblah</p>
                                 <img class="img-responsive img-centered" src="{% static 'img/portfolio/hotdog.png' %}" width="200" height="40" alt="">
-                                <p>blah</p>
+                                <div>
+                                  d1
+                                  d2
+                                  d3
+                                </div>
                                 <p>
                                     <b>Ingredients </b>
                                 </p>
-                                <ul class="list-inline">
-                                    <li>peppers</li>
-                                    <li>olives</li>
-                                    <li>meat</li>
-                                </ul>
+                                <div>
+                                  i1
+                                  i2
+                                  i3
+                                </div>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Home</button>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Search</button>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
@@ -224,7 +156,7 @@
     </div>
 
     <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -248,6 +180,7 @@
                                     <li>peppers</li>
                                     <li>olives</li>
                                     <li>meat</li>
+                                    <li>lion</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Home</button>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Search</button>
@@ -258,156 +191,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <<h2>Recipe Directions for...</h2>
-                                <p class="item-intro text-muted">Blahblah</p>
-                                <img class="img-responsive img-centered" src="{% static 'img/portfolio/hotdog.png' %}" width="200" height="40" alt="">
-                                <p>blah</p>
-                                <p>
-                                    <b>Ingredients </b>
-                                </p>
-                                <ul class="list-inline">
-                                    <li>peppers</li>
-                                    <li>olives</li>
-                                    <li>meat</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Home</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Search</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                               <h2>Recipe Directions for...</h2>
-                                <p class="item-intro text-muted">Blahblah</p>
-                                <img class="img-responsive img-centered" src="{% static 'img/portfolio/hotdog.png' %}" width="200" height="40" alt="">
-                                <p>blah</p>
-                                <p>
-                                    <b>Ingredients </b>
-                                </p>
-                                <ul class="list-inline">
-                                    <li>peppers</li>
-                                    <li>olives</li>
-                                    <li>meat</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Home</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Search</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Recipe Directions for...</h2>
-                                <p class="item-intro text-muted">Blahblah</p>
-                                <img class="img-responsive img-centered" src="{% static 'img/portfolio/hotdog.png' %}" width="200" height="40" alt="">
-                                <p>blah</p>
-                                <p>
-                                    <b>Ingredients </b>
-                                </p>
-                                <ul class="list-inline">
-                                    <li>peppers</li>
-                                    <li>olives</li>
-                                    <li>meat</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Home</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Search</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Recipe Directions for...</h2>
-                                <p class="item-intro text-muted">Blahblah</p>
-                                <img class="img-responsive img-centered" src="{% static 'img/portfolio/hotdog.png' %}" width="200" height="40" alt="">
-                                <p>blah</p>
-                                <p>
-                                    <b>Ingredients </b>
-                                </p>
-                                <ul class="list-inline">
-                                    <li>peppers</li>
-                                    <li>olives</li>
-                                    <li>meat</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Home</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Search</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    </div> -->
 
     {% load staticfiles %}
     <!-- jQuery -->
@@ -425,7 +209,7 @@
     <script src="{% static 'js/agency.min.js' %}"></script>
 
     <!-- DynamoDB JavaScript -->
-    <script src="{% static 'js/database.js' %}"></script>
+    <script src="{% static 'js/recipe_list.js' %}"></script>
 
 </body>
 {% endblock %}
