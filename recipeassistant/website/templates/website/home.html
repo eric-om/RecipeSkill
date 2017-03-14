@@ -130,7 +130,7 @@
                         <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">Click for ingredients</a>
                     </div>
                 </div>
-                
+
             </div>
             </div>
         </div>
@@ -149,7 +149,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Recipe Title *" id="name" required data-validation-required-message="Please enter recipe title.">
+                                    <textarea type="text" class="form-control" placeholder="Recipe Title *" id="recipeTitle" required data-validation-required-message="Please enter recipe title."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
@@ -159,7 +159,11 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Preparation Steps *" id="message" required data-validation-required-message="Please enter preparation steps."></textarea>
+                                    <textarea class="form-control" placeholder="Preparation Steps *" id="directions" required data-validation-required-message="Please enter preparation steps."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Image URL *" id="imgURL" required data-validation-required-message="Please enter a link to an image."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -419,6 +423,9 @@
 
     <!-- Theme JavaScript -->
     <script src="{% static 'js/agency.min.js' %}"></script>
+
+    <!-- DynamoDB JavaScript -->
+    <script src="{% static 'js/database.js' %}"></script>
 
 </body>
 {% endblock %}
