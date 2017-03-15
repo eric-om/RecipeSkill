@@ -82,13 +82,13 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                	<textarea class="form-control" placeholder="Ingredients *" id="ingredients" required data-validation-required-message="List the Ingredients line by line."></textarea>
+                                	<textarea class="form-control" placeholder="Ingredients **ENTER ONE INGREDIENT PER LINE**" id="ingredients" required data-validation-required-message="List the Ingredients line by line."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Preparation Steps *" id="directions" required data-validation-required-message="Please enter preparation steps."></textarea>
+                                    <textarea class="form-control" placeholder="Preparation Steps **ENTER ONE STEP PER LINE**" id="directions" required data-validation-required-message="Please enter preparation steps."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
@@ -113,40 +113,41 @@
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
+    <div id="recipe-view">
+        <!-- Portfolio Modal 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Recipe Directions for...</h2>
-                                <p class="item-intro text-muted">Blahblah</p>
-                                <img class="img-responsive img-centered" src="{% static 'img/portfolio/hotdog.png' %}" width="200" height="40" alt="">
-                                <div>
-                                  d1
-                                  d2
-                                  d3
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>Recipe Directions for...</h2>
+                                    <p class="item-intro text-muted">Blahblah</p>
+                                    <img class="img-responsive img-centered" src="{% static 'img/portfolio/hotdog.png' %}" width="200" height="40" alt="">
+                                    <div>
+                                      d1
+                                      d2
+                                      d3
+                                    </div>
+                                    <p>
+                                        <b>Ingredients </b>
+                                    </p>
+                                    <div>
+                                      i1
+                                      i2
+                                      i3
+                                    </div>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Home</button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Search</button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
                                 </div>
-                                <p>
-                                    <b>Ingredients </b>
-                                </p>
-                                <div>
-                                  i1
-                                  i2
-                                  i3
-                                </div>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Home</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Search</button>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
                             </div>
                         </div>
                     </div>
