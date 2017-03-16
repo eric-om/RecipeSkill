@@ -347,16 +347,19 @@ section h3.section-subheading {
   margin: 0 auto;
   background-color: white;
   text-align: center;
-  padding: 25px;
+  color: blue !important; 
+  padding: 10px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
+  color: blue !important; 
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
+  color: blue !important; 
   margin: 0;
 }
 #portfolio * {

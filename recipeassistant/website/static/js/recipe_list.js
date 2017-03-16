@@ -30,19 +30,21 @@ function populateTable() {
 
         var tableItemHTML =  "\
                           <div class=\"col-md-4 col-sm-6 portfolio-item\"> \
+                          <div class=\"bg-light-gray\">\
                               <a href=\"#portfolioModal" + rNameNoSpaces + "\" class=\"portfolio-link\" data-toggle=\"modal\"> \
                                   <div class=\"portfolio-hover\"> \
                                       <div class=\"portfolio-hover-content\"> \
                                           <i class=\"fa fa-plus fa-3x\"></i> \
                                       </div> \
                                   </div> \
-                                  <img src=" + json_data.Items[i].ImageURL + " class=\"img-responsive\" alt=\"\"> \
+                                  <img src=" + json_data.Items[i].ImageURL + " class=\"img-responsive\" alt style=\"width:400px;height:289px;\"> \
                               </a> \
-                              <div class=\"portfolio-caption\"> \
-                                  <h4>" + rName + "</h4> \
-                                  <a href=\"#portfolioModal1\" class=\"portfolio-link\" data-toggle=\"modal\">Click for ingredients</a> \
+                              <div class=\"portfolio-caption\" > \
+                                  <h4 style=\"color:#0000FF\" >" + rName + "</h4> \
+                                  <a href=\"#portfolioModal" + rNameNoSpaces + "\" class=\"portfolio-link\" data-toggle=\"modal\">Click for ingredients</a> \
                               </div> \
-                          </div>";
+                          </div> \
+                        </div>";
         $("#recipeTable").append(tableItemHTML);
 
         var recipeViewHTML = "\
