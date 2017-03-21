@@ -24,7 +24,7 @@ $(function() {
                 type: 'POST',
                 data: JSON.stringify({"TableName": "Recipes",
                                       "Item": {
-                                          "RecipeName": recipeTitle,
+                                          "RecipeName": recipeTitle.toLowerCase(),
                                           "Ingredients": ingredients,
                                           "Directions": directions,
                                           "ImageURL": imgURL
