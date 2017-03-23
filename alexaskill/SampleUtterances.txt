@@ -1,0 +1,26 @@
+ItemIntent Find {Recipe}
+ItemIntent I'd like to make {Recipe}
+ItemIntent How do I make {Recipe}
+
+HelpIntent What can I say
+QuitIntent quit
+QuitIntent exit
+QuitIntent main menu
+QuitIntent leave
+QuitIntent conclude
+
+IngredientIntent ingredients
+IngredientIntent what are the ingredients
+NextIngredientIntent next ingredient
+LastIngredientIntent last ingredient
+
+RecipeIntent read recipe
+RecipeIntent start
+RecipeIntent steps
+RecipeIntent what are the steps
+RecipeIntent what is the recipe
+NextStepIntent next step
+LastStepIntent last step
+
+RestartIntent start again
+RestartIntent restart

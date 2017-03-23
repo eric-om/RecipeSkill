@@ -1,0 +1,40 @@
+{
+	"intents": [
+		{
+			"intent": "ItemIntent",
+			"slots": [
+				{
+					"name": "Recipe",
+					"type": "AMAZON.Food"
+				}
+			]
+		},
+		{
+			"intent": "HelpIntent"
+		},
+		{
+			"intent": "QuitIntent"
+		},
+		{
+			"intent": "IngredientIntent"
+		},
+		{
+			"intent": "NextIngredientIntent"
+		},
+		{
+			"intent": "LastIngredientIntent"
+		},
+		{
+			"intent": "RecipeIntent"
+		},
+		{
+			"intent": "NextStepIntent"
+		},
+		{
+			"intent": "LastStepIntent"
+		},
+		{
+			"intent": "RestartIntent"
+		}
+	]
+}
